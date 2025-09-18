@@ -1,0 +1,672 @@
+{
+  "/": [
+    {
+      "title": "KUDU Beef box",
+      "price": 117,
+      "img": "./img/dishes-1/dish1.webp",
+      "desc": "Designed to bring joy to your gatherings with family and friends, whether its a casual get-together or a night out, our Gathering Box is sure to be the highlight of any occasion. Packed with 4 Signature Kudu Beef Sandwiches, Family Fries, Crisp Fries, and 4 tantalizing sauces: Garlic Parmesan, Special Kudu Sauce, Sweet Dynamite, and BBQ",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Bite Bucket Combo",
+      "price": 69,
+      "img": "./img/dishes-1/dish2.webp",
+      "desc": "Introducing our Chicken Bite Bucket: A bucket of crunchy breaded chicken bites with 25pcs. Each bite is complemented by flavorful dips: Sweet Dynamite, BBQ, and our exclusive Kudu Sauce.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Bite Bucket Combo spicy",
+      "price": 69,
+      "img": "./img/dishes-1/dish3.webp",
+      "desc": "Introducing our Chicken Bite Bucket spicy: A bucket of crunchy breaded chicken bites spicy with 25pcs. Each bite is complemented by flavorful dips: Sweet Dynamite, BBQ, and our exclusive Kudu Sauce with french fries and pepsi.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Strips Bucket Combo",
+      "price": 69,
+      "img": "./img/dishes-1/dish4.webp",
+      "desc": "Introducing the ultimate gathering bundle! featuring 10 mouthwatering chicken strips, accompanied by family-sized fries, 2 soft buns, and 1-liter Pepsi. Weve also included four tantalizing sauces on the side: Sweet Dynamite for a fiery kick, classic BBQ for a smoky flavor, and our exclusive Kudu Sauce for a unique twist.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Strips Bucket",
+      "price": 49,
+      "img": "./img/dishes-1/dish5.webp",
+      "desc": "Introducing our Chicken Strips Bucket: a mouthwatering selection of 10 tender, golden-brown chicken strips, perfect for sharing. Served with a trio of dipping sauces: Sweet Dynamite, BBQ, and our exclusive Kudu Sauce.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Bite Bucket spicy",
+      "price": 49,
+      "img": "./img/dishes-1/dish6.webp",
+      "desc": "Introducing our Chicken Bite Bucket spicy: A bucket of crunchy breaded chicken bites spicy with 25pcs. Each bite is complemented by flavorful dips: Sweet Dynamite, BBQ, and our exclusive Kudu Sauce.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Cheese Nacho Bucket",
+      "price": 43,
+      "img": "./img/dishes-1/dish7.webp",
+      "desc": "Introducing our 12 pcs Signature Cheese Nachos Bucket: Dive into a bucket filled with our rich, melted nachos, perfect for satisfying your cheesy cravings. Each bite is complemented by flavorful dips: Sweet Dynamite, BBQ, and our exclusive Kudu Sauce.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Bite Bucket",
+      "price": 49,
+      "img": "./img/dishes-1/dish8.webp",
+      "desc": "Introducing our Chicken Bite Bucket: A bucket of crunchy breaded chicken bites with 25pcs. Each bite is complemented by flavorful dips: Sweet Dynamite, BBQ, and our exclusive Kudu Sauce.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "KUDU Chicken Box",
+      "price": 107,
+      "img": "./img/dishes-1/dish9.webp",
+      "desc": "Designed to bring joy to your gatherings with family and friends, whether its a casual get-together or a night out, our Gathering Box is sure to be the highlight of any occasion. Packed with 4 Signature Kudu Chicken Sandwiches, Family Fries, Crisp Fries, and 4 tantalizing sauces: Garlic Parmesan, Special Kudu Sauce, Sweet Dynamite, and BBQ",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "KUDU Mix Box",
+      "price": 113,
+      "img": "./img/dishes-1/dish10.webp",
+      "desc": "Designed to bring joy to your gatherings with family and friends, whether its a casual get-together or a night out, our Gathering Box is sure to be the highlight of any occasion. Packed with 2 Signature Kudu Beef Sandwiches and 2 Signature Kudu Chicken Sandwiches, Family Fries, Crisp Fries, and 4 tantalizing sauces: Garlic Parmesan, Special Kudu Sauce, Sweet Dynamite, and BBQ",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "KUDU Spicy Chicken Box",
+      "price": 111,
+      "img": "./img/dishes-1/dish11.webp",
+      "desc": "The perfect addition to your gatherings, featuring 4 spicy chicken Kudu sandwiches, family-size crispy and regular fries, plus 4 flavorful sauces for an unforgettable feast!",
+      "kcal": "999 Kcal"
+    }
+  ],
+
+  "/combos": [
+    {
+      "title": "Kudu Beef Combo",
+      "price": 34,
+      "img": "./img/dishes-2/dish1.webp",
+      "desc": "Our bestselling original starring grilled beef, melted yellow cheese, fresh tomato slice, crisp lettuce, grilled onion, bell pepper topped with mayo. Served in a freshly baked Kudu soft bread with fries and Coke on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Smokey Combo",
+      "price": 35,
+      "img": "./img/dishes-2/dish2.png",
+      "desc": "A Premium Taste Sensation: Tender, premium philly steak sizzles on a pillowy potato sub, layered with the sweetness of caramelized peppers and onions. Melty mozzarella and Emmental cheese create a creamy dream, all topped with a smokey kick from our new Smokey sauce. Its a taste masterpiece in every bite!",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Lafino Philly Steak Combo",
+      "price": 34,
+      "img": "./img/dishes-2/dish3.png",
+      "desc": "A mix of grilled philly steak comes in tortilla bread with melted yellow cheese, grilled green pepper ,onions & mayo. Served with fries and Coke.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Philly Steak Combo",
+      "price": 34,
+      "img": "./img/dishes-2/dish4.png",
+      "desc": "The famous philly grilled beef fillet, sauteed mushroom & onions with melted white cheese .Served in a freshly baked Kudu soft bread with fries and Coke on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Quattro Spicy Chicken Combo",
+      "price": 32,
+      "img": "./img/dishes-2/dish5.webp",
+      "desc": "A classic melt-in -mouth crispy breaded spicy chicken, filled with a delicious mix of lettuce, cheese, topped with mayo sauce. Served with fries and Coke on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Club Sandwich Combo",
+      "price": 34,
+      "img": "./img/dishes-2/dish6.webp",
+      "desc": "This item will increase your stamina and you will enjoy it Our signature club filled with omlete eggs, slices of smoked chicken, beef, and turkey with pickles, yellow and white cheese. All layered into a fresh toast. Served with fries and Coke.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Burger Combo",
+      "price": 28,
+      "img": "./img/dishes-2/dish7.webp",
+      "desc": "Crunchy breaded chicken patty topped with crisp Lettuce and mayo in soft burger bun. Served with fries and Coke on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Muthalatha Combo",
+      "price": 34,
+      "img": "./img/dishes-2/dish8.webp",
+      "desc": "Explore the taste of excitement with Muthalatha. Loaded with chicken, melted mozzarella-rich Emmental cheese, caramelized peppers, and topped with Tabasco Sriracha and mayo sauce, all embraced in a spicy wrap. Comes with Cilantro Sauce fries and a drink on the side",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Kudu Chicken Combo",
+      "price": 33,
+      "img": "./img/dishes-2/dish9.webp",
+      "desc": "Our bestselling original, starring grilled chicken pieces, fresh tomato slices, crisp lettuce, grilled onion, bell pepper topped with soya and mayo sauce. Served in a freshly baked Kudu soft bread with fries and Coke on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Kudu Spicy Chicken Combo",
+      "price": 34,
+      "img": "./img/dishes-2/dish10.webp",
+      "desc": "Grilled spicy chicken pieces topped with green pepper, onion, melted white cheese, fresh tomato slices, crisp lettuce and our dynamite spicy sauce. Served in a freshly baked Kudu soft bread with fries and Coke on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Lafino Chicken Combo",
+      "price": 33,
+      "img": "./img/dishes-2/dish11.webp",
+      "desc": "A mix of grilled chicken comes in tortilla bread, topped with yellow cheese slices, fresh tomato, crisp lettuce, green pepper, onions and burrito sauce. Served with Fries and Soft drinks.",
+      "kcal": "999 Kcal"
+    }
+  ],
+
+  "/kids-meal": [
+    {
+      "title": "Kids Chicken Strips",
+      "price": 17,
+      "img": "./img/dishes-3/dish1.webp",
+      "desc": "Treat your kids with 3 pieces of chicken strips served with French fries and Pepsi. Add 2 SAR for them to enjoy apple or orange juice.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Kids Chicken Burger",
+      "price": 17,
+      "img": "./img/dishes-3/dish2.webp",
+      "desc": "Have fun and eat our crispy breaded chicken burger with lettuce and mayo in a soft bun. Served with your favorite fries on the side and Soft drink.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Kids Chicken Nuggets",
+      "price": 17,
+      "img": "./img/dishes-3/dish3.webp",
+      "desc": "A yummy crispy 4 pieces of chicken nuggets comes with your favorite fries on the side & Soft drink.",
+      "kcal": "999 Kcal"
+    }
+  ],
+
+
+  "/sandwiches": [
+    {
+      "title": "Kudu Beef Sandwich",
+      "price": 29,
+      "img": "./img/dishes-4/dish1.webp",
+      "desc": "Our bestselling original starring grilled beef, melted yellow cheese, fresh tomato slice, crisp lettuce, grilled onion, bell pepper topped with mayo.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Smokey Sandwich",
+      "price": 30,
+      "img": "./img/dishes-4/dish2.png",
+      "desc": "A Premium Taste Sensation: Tender, premium philly steak sizzles on a pillowy potato sub, layered with the sweetness of caramelized peppers and onions. Melty mozzarella and Emmental cheese create a creamy dream, all topped with a smokey kick from our new Smokey sauce. Its a taste masterpiece in every bite!",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Lafino Philly Steak Sandwich",
+      "price": 29,
+      "img": "./img/dishes-4/dish3.png",
+      "desc": "A mix of grilled philly steak comes in tortilla bread with melted yellow cheese, grilled green pepper ,onions & mayo.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Philly Steak Sandwich",
+      "price": 29,
+      "img": "./img/dishes-4/dish4.png",
+      "desc": "The famous philly grilled beef fillet, sauteed mushroom & onions with melted white cheese.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Quattro Spicy Chicken Sandwich",
+      "price": 27,
+      "img": "./img/dishes-4/dish5.webp",
+      "desc": "A classic melt-in -mouth crispy breaded spicy chicken, filled with a delicious mix of lettuce, cheese, topped with mayo sauce.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Club Sandwich Sandwich",
+      "price": 29,
+      "img": "./img/dishes-4/dish6.webp",
+      "desc": "This item will increase your stamina and you will enjoy it Our signature club filled with omlete eggs, slices of smoked chicken, beef, and turkey with pickles, yellow and white cheese. All layered into a fresh toast.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Burger Sandwich",
+      "price": 23,
+      "img": "./img/dishes-4/dish7.webp",
+      "desc": "Crunchy breaded chicken patty topped with crisp Lettuce and mayo in soft burger bun.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Muthalatha Sandwich",
+      "price": 29,
+      "img": "./img/dishes-4/dish8.webp",
+      "desc": "Explore the taste of excitement with Muthalatha. Loaded with chicken, melted mozzarella-rich Emmental cheese, caramelized peppers, and topped with Tabasco Sriracha and mayo sauce, all embraced in a spicy wrap. ",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Kudu Chicken Sandwich",
+      "price": 28,
+      "img": "./img/dishes-4/dish9.webp",
+      "desc": "Our bestselling original, starring grilled chicken pieces, fresh tomato slices, crisp lettuce, grilled onion, bell pepper topped with soya and mayo sauce.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Kudu Spicy Chicken Sandwich",
+      "price": 29,
+      "img": "./img/dishes-4/dish10.webp",
+      "desc": "Grilled spicy chicken pieces topped with green pepper, onion, melted white cheese, fresh tomato slices, crisp lettuce and our dynamite spicy sauce.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Lafino Chicken Sandwich",
+      "price": 28,
+      "img": "./img/dishes-4/dish11.webp",
+      "desc": "A mix of grilled chicken comes in tortilla bread, topped with yellow cheese slices, fresh tomato, crisp lettuce, green pepper, onions and burrito sauce.",
+      "kcal": "999 Kcal"
+    }
+  ],
+
+  "/kudu-fit": [
+    {
+      "title": "Chicken Caesar Salad",
+      "price": 27,
+      "img": "./img/dishes-5/dish1.webp",
+      "desc": "Our Caesar Salad features grilled chicken with fresh mixed lettuce, creamy Caesar dressing, crunchy croutons, and grated Parmesan, Perfect as a light lunch or side dish.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Grilled Chicken Meal",
+      "price": 33,
+      "img": "./img/dishes-5/dish2.webp",
+      "desc": "Crisp iceberg lettuce topped with grilled chicken, cherry tomato, cucumber, sauteed mushroom, diced tomato & onion mixed with yellow cheese sprinkles. Served with Italian dressing, toasted bread, crispy potato and diet soft drinks on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Diet Grilled Chicken Meal",
+      "price": 33,
+      "img": "./img/dishes-5/dish3.webp",
+      "desc": "Crisp iceberg lettuce topped with grilled chicken, cherry tomato, cucumber, sauteed mushroom, diced tomato & onion mixed with yellow cheese sprinkles, served with Italian dressing, toasted brown bread, and iced teg on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Kudu Chicken Salad",
+      "price": 26,
+      "img": "./img/dishes-5/dish4.webp",
+      "desc": "A mix of fresh & crisp iceberg lettuce topped with grilled chicken breast, cherry tomato, cucumber and herb croutons. Served with our famous Kudu dressing on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Kudu Salad",
+      "price": 20,
+      "img": "./img/dishes-5/dish5.webp",
+      "desc": "Salad, Cherry Tomato, Cucumber, Dressing, Crouton Bread, Salt, Pepper",
+      "kcal": "999 Kcal"
+    }
+],
+
+"/khafayef": [
+    {
+      "title": "Kudulicious Chicken Combo",
+      "price": 21,
+      "img": "./img/dishes-6/dish1.webp",
+      "desc": "Juicy grilled chicken, sauteed fresh onions and green pepper, crisp lettuce, fresh tomato slices topped with soya & garlic parmesan sauce layered in a freshly baked Kudu bread. Served with your favorite fries and Pepsi on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Jalapeno Cheese Melt Combo",
+      "price": 23,
+      "img": "./img/dishes-6/dish2.webp",
+      "desc": "Super cheesy burger duo with golden breaded chicken patty topped with melted yellow cheese, cheese slices and hot Jalapeno pickles.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Veggie Combo",
+      "price": 21,
+      "img": "./img/dishes-6/dish3.webp",
+      "desc": "Our exclusive veggie spicy fried patty topped with crisp lettuce and Thousand Island sauce. Served with your favorite fries and Pepsi on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Kudulicious Chicken Sandwich",
+      "price": 13,
+      "img": "./img/dishes-6/dish4.webp",
+      "desc": "Juicy grilled chicken, sauteed fresh onions and green pepper, crisp lettuce, fresh tomato slices topped with soya & garlic parmesan sauce layered in a freshly baked Kudu bread.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Veggie Sandwich",
+      "price": 15,
+      "img": "./img/dishes-6/dish5.webp",
+      "desc": "Our exclusive veggie spicy fried patty topped with crisp lettuce and thousand island sauce.",
+      "kcal": "999 Kcal"
+    }
+],
+
+"/sides": [
+    {
+      "title": "Double Cheesy Bacon Fries",
+      "price": 20,
+      "img": "./img/dishes-7/dish1.webp",
+      "desc": "Double the indulgence with crispy fries, cheddar cheese, burrito sauce, crispy bacon, and spicy jalape?os.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Cheesy Bacon Fries",
+      "price": 16,
+      "img": "./img/dishes-7/dish2.webp",
+      "desc": "Indulge in crispy French fries loaded with cheddar cheese, burrito sauce, crispy bacon, and spicy jalape?os.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "French Cheese Bites",
+      "price": 16,
+      "img": "./img/dishes-7/dish3.webp",
+      "desc": "The delicious 4pcs French cheese bites is here in a new form with French cheese bites: creamy French cheese melted inside, crunchy and rich for a unique flavor experience.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Strips Duo",
+      "price": 10,
+      "img": "./img/dishes-7/dish4.webp",
+      "desc": "Savor the crispy goodness of 2 tender Chicken Strips, perfectly paired with flavorful pepper mayo sauce.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Cheese Nachos",
+      "price": 13,
+      "img": "./img/dishes-7/dish5.webp",
+      "desc": "Mouthwatering crisp fried nachos filled with rich melted cheese. (3 pcs)",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Bite Regular 6pcs",
+      "price": 13,
+      "img": "./img/dishes-7/dish6.webp",
+      "desc": "6 pcs of crunchy breaded chicken bites with your choice of BBQ, Dynamite or thousand island dips.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Bite Spicy 6pcs",
+      "price": 14,
+      "img": "./img/dishes-7/dish7.webp",
+      "desc": "6 pcs of crunchy breaded spicy chicken bites, just right for dunking into our thousand Island dip.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Chicken Nuggets",
+      "price": 13,
+      "img": "./img/dishes-7/dish8.webp",
+      "desc": "A yummy crispy 6 pieces of Chicken Nuggets comes with your favorite tortilla sauce on the side.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Potato Crisps",
+      "price": 11,
+      "img": "./img/dishes-7/dish9.webp",
+      "desc": "Our exclusive (6 pcs) crunchy fries crisped to perfection.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Cheese Fries",
+      "price": 14,
+      "img": "./img/dishes-7/dish10.webp",
+      "desc": "Our Original Fries topped with melted Cheddar Cheese sauce and Onion Chives.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Large Fries",
+      "price": 11,
+      "img": "./img/dishes-7/dish11.webp",
+      "desc": "Our Crispy Golden Fries",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Hash Brown",
+      "price": 4,
+      "img": "./img/dishes-7/dish12.webp",
+      "desc": "Hash Brown",
+      "kcal": "999 Kcal"
+    }
+],
+
+"/dessert": [
+    {
+      "title": "Brownies Cheesecake",
+      "price": 18,
+      "img": "./img/dishes-8/dish1.webp",
+      "desc": "A rich, creamy chocolate cheesecake with a smooth, velvety texture and a hint of cocoa, set on a crunchy chocolate cookie crust. Perfectly decadent for chocolate lovers!",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "San Sebastian Cheesecake",
+      "price": 16,
+      "img": "./img/dishes-8/dish2.webp",
+      "desc": "Indulge in the rich and creamy San Sebastian Cheesecake, a perfectly baked delight with a caramelized top and soft, melt-in-your-mouth center. Customize your experience by choosing either a strawberry sauce or chocolate topping, adding a burst of flavor to every bite. This cheesecake is a true treat for dessert lovers!",
+      "kcal": "999 Kcal"
+    }
+  ],
+
+  "/sauces": [
+    {
+      "title": "KUDU Dressing",
+      "price": 3,
+      "img": "./img/dishes-9/dish1.webp",
+      "desc": "Kudu Dressing",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Cheddar Cheese Sauce",
+      "price": 3,
+      "img": "./img/dishes-9/dish2.webp",
+      "desc": "Cheddar Cheese",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "1000 Island Sauce",
+      "price": 3,
+      "img": "./img/dishes-9/dish3.webp",
+      "desc": "1000 Island Sauce",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Tortilla Sauce",
+      "price": 3,
+      "img": "./img/dishes-9/dish4.webp",
+      "desc": "Tortilla Sauce",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Italian Dressing",
+      "price": 3,
+      "img": "./img/dishes-9/dish5.webp",
+      "desc": "Italian Dressing",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Sweet Dynamite Dip",
+      "price": 3,
+      "img": "./img/dishes-9/dish6.webp",
+      "desc": "Sweet Dynamite Dip",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Burrito Dip",
+      "price": 3,
+      "img": "./img/dishes-9/dish7.webp",
+      "desc": "Burrito Dip",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Mapple Syrup",
+      "price": 3,
+      "img": "./img/dishes-9/dish8.webp",
+      "desc": "Mapple Syrup",
+      "kcal": "999 Kcal"
+    }
+],
+
+"/hot-drinks": [
+    {
+      "title": "Cappuccino",
+      "price": 5,
+      "img": "./img/dishes-10/dish1.webp",
+      "desc": "A cappuccino is always a good idea. A double shot of 100% Arabica bean espresso with powdered milk in a perfect frothy texture.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Espresso",
+      "price": 4,
+      "img": "./img/dishes-10/dish2.webp",
+      "desc": "Give it the best shot, have an Espresso. 100% Arabica beans to enjoy a smoother taste",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Americano",
+      "price": 5,
+      "img": "./img/dishes-10/dish3.webp",
+      "desc": "Smells like freshly ground heaven. Our Americano comes in a single shot of espresso with added water.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Latte",
+      "price": 5,
+      "img": "./img/dishes-10/dish4.webp",
+      "desc": "Its rich, creamy and from 100% Arabica coffee beans. Double espresso, powdered milk, and a final thin layer foam on the top.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Mochaccino",
+      "price": 5,
+      "img": "./img/dishes-10/dish5.webp",
+      "desc": "Its always Mocha time. Enjoy a shot of espresso combined with milk and chocolate powder topped with a foam layer",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Hot Chocolate",
+      "price": 5,
+      "img": "./img/dishes-10/dish6.webp",
+      "desc": "Stir up some trouble, and have a hot chocolate. A cup mix of cocoa and milk powder.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Karak Tea",
+      "price": 5,
+      "img": "./img/dishes-10/dish7.webp",
+      "desc": "Delicious strong aromatic cup with a blend of black tea leaves, saffron, and special flavours.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Tea",
+      "price": 3,
+      "img": "./img/dishes-10/dish8.webp",
+      "desc": "A perfect tea leaves blend in a bag with boiling water.",
+      "kcal": "999 Kcal"
+    }
+  ],
+
+  "/cold-drinks": [
+    {
+      "title": "Matcha latte",
+      "price": 11,
+      "img": "./img/dishes-11/dish1.webp",
+      "desc": "A cool, creamy refresh with vibrant matcha flavor",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "KUDU Passion",
+      "price": 11,
+      "img": "./img/dishes-11/dish2.webp",
+      "desc": "A refreshing mix of passion fruit and fizzy citrus.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Iced Americano",
+      "price": 11,
+      "img": "./img/dishes-11/dish3.webp",
+      "desc": "A Classic refreshing Iced drink. Made with 100% freshly grounded Arabica espresso beans, cold water, and Ice cubes.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Iced Caramel Latte",
+      "price": 11,
+      "img": "./img/dishes-11/dish4.webp",
+      "desc": "Looking for a drink to enjoy?Give Iced Caramel Latte a try. With espresso shots, milk, caramel syrup, and ice cubes all mixed to perfection.",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Iced Karkade",
+      "price": 11,
+      "img": "./img/dishes-11/dish5.webp",
+      "desc": "Dive into paradise with our new Iced Karkade Refresher! This vibrant drink is crafted from 100 % hibiscus tea, bubbly soda, and packed with ice for a refreshingly cool escape. Must Try!!",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Orange Juice",
+      "price": 8,
+      "img": "./img/dishes-11/dish6.webp",
+      "desc": "Orange juice with no added sugar",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Apple Juice",
+      "price": 8,
+      "img": "./img/dishes-11/dish7.webp",
+      "desc": "Apple Juice with no added sugar",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Pepsi Can",
+      "price": 6,
+      "img": "./img/dishes-11/dish8.webp",
+      "desc": "Pepsi Can",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Pepsi Zero Can",
+      "price": 6,
+      "img": "./img/dishes-11/dish9.webp",
+      "desc": "Pepsi Zero Can",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "7 Up Can",
+      "price": 6,
+      "img": "./img/dishes-11/dish10.webp",
+      "desc": "7 Up Can",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Merinda Orange Can",
+      "price": 6,
+      "img": "./img/dishes-11/dish11.webp",
+      "desc": "Merinda Orange Can",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Mountain Dew Can",
+      "price": 6,
+      "img": "./img/dishes-11/dish12.webp",
+      "desc": "Mountain Dew Can",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Lipton Ice Tea Peach",
+      "price": 6,
+      "img": "./img/dishes-11/dish13.webp",
+      "desc": "Lipton Ice Tea Peach",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Lipton Ice Tea Red Fruits",
+      "price": 6,
+      "img": "./img/dishes-11/dish14.webp",
+      "desc": "Lipton Ice Tea Red Fruits",
+      "kcal": "999 Kcal"
+    },
+    {
+      "title": "Water",
+      "price": 3,
+      "img": "./img/dishes-11/dish15.webp",
+      "desc": "Pure water for a perfect taste. Add a refreshing water to your meal.",
+      "kcal": "999 Kcal"
+    }
+  ]
+}

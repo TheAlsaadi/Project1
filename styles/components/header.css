@@ -1,0 +1,203 @@
+.header{
+    display: flex;
+    background-color: var(--secondary-color);
+    border-radius: 0 0 20px 20px;
+    align-items: center;
+    gap: .2rem;position: fixed;
+    left: var(--padding-gutter); 
+    right: var(--padding-gutter);
+    top: 0;
+    z-index: 100;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.header__logo-block{
+    display: flex;
+    cursor: pointer;
+}
+.header__logo{
+    display: inline-block;
+    width: 0;
+	height: 0;
+	border-left: 18px solid transparent;
+	border-right: 18px solid transparent;
+	border-top: 36px solid var(--primary-color);
+}
+.header__title{
+    font-weight: bold;
+    color: white;
+    font-size: .9rem;
+}
+.header__title-en{
+    margin-top: .5rem;
+}
+.header__title-ar{
+    font-family: "Cairo", Arial, Helvetica, sans-serif;
+    margin-top: .15rem;
+}
+
+.header__search{
+    display: flex;
+    max-height: 36px;
+    justify-self: flex-end;
+    justify-content: flex-end;
+    flex: 1;
+}
+.header__search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: .3rem;
+    transition: color 200ms ease;
+    cursor: pointer;
+}
+.header__search-icon:hover,
+.header__search-icon:hover + .header__search-bar::placeholder,
+.header__search-bar:hover::placeholder,
+.header__search:has(.header__search-bar:hover) .header__search-icon{
+    color: var(--primary-color);
+}
+.header__search-bar{
+    border: none;
+    border-radius: 0 15px 15px 0;
+    padding: .2rem;
+    max-width: 60px;
+    display: none;
+    cursor: pointer;
+}
+.header__search-bar:focus{
+    border: none;
+    outline: none;
+}
+.header__search-bar::placeholder{
+    transition: color 200ms ease;
+}
+.header__login-text{
+    color: grey;
+    transition: color 200ms ease;
+}
+.header__login{
+    padding: .3rem;
+    border-radius: 100px;
+    margin-left: .5rem;
+    margin-right: .2rem;
+    transition: color 200ms ease;
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+.header__login:hover, .header__login:hover .header__login-text{
+    color: var(--primary-color);
+}
+.header__login-text{
+    display: none;
+}
+
+.header__hamburger-menu{
+    pointer-events: none;
+}
+.header__hamburger-menu-icon{
+    color: white;
+    pointer-events: none;
+    width: 36px;
+    height: 36px;
+    transition: color 200ms ease;
+}
+.header__check-box-label:hover .header__hamburger-menu-icon{
+    color: var(--primary-color);
+}
+.header__check-box-label:active{
+    background-color: var(--secondary-color-dark);
+}
+.header__check-box-label{
+    display: flex;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+@media (min-width: 475px){
+    .header{
+        padding: 1.5rem 1.8rem 1.8rem;
+        left: 3rem;
+        right: 3rem;
+    }
+    .header__logo{
+        border-left: 21px solid transparent;
+        border-right: 21px solid transparent;
+        border-top: 42px solid var(--primary-color);
+    }
+    .header__title{
+        font-size: 1.2rem;
+    }
+    .header__title-ar{
+        margin-top: 0.1rem;
+    }
+}
+
+
+
+@media (min-width: 640px){
+    .header{
+        padding: 1.5rem 2.1rem 1.8rem;
+        left: 3.5rem;
+        right: 3.5rem;
+    }
+
+    .header__check-box-label{
+        display: none;
+    }
+
+    .header__login-text{
+        display: block;
+        font-size: .8rem;
+        font-weight: 400;
+    }
+
+     .header__search-bar{
+        display: block;
+    }
+    .header__search-icon{
+        border-radius: 20px 0 0 20px;
+    }
+}
+
+
+
+@media (min-width: 768px){
+    .header{
+        padding: 1.5rem 2.1rem 1.8rem;
+        left: 4rem;
+        right: 4rem;
+    }
+
+}
+
+
+
+@media (min-width: 1024px){
+    .header{
+        padding: 1.5rem 3rem 1.8rem;
+        left: 6rem;
+        right: 6rem;
+    }
+}
+
+
+@media (min-width: 1280px){
+    .header{
+        padding: 1.5rem 4rem 1.8rem;
+        left: 8rem;
+        right: 8rem;
+    }
+}
+
+
+
+@media (min-width: 1536px){
+    .header{
+        padding: 1.5rem 5rem 1.8rem;
+        left: 10rem;
+        right: 10rem;
+    }
+}

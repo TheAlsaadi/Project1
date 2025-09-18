@@ -1,0 +1,126 @@
+.nav{
+    z-index: 10;
+    position: fixed;
+    padding-bottom: 1rem;
+    top:84px;
+    left: 3rem;
+    right: 3rem;
+    transform: translateX(-1px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius:0 0 20px 20px;
+    transform: translateY(-200px);
+    opacity: 0;
+    transition: transform 220ms ease, opacity 160ms ease;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+
+.nav__link{
+    color: var(--secondary-color);
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-size: .8rem;
+    padding: .3rem 0;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+}
+.nav__link:hover{
+    background-color: #ac8401;
+}
+#nav__check-box:checked ~ .nav{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.nav-2{
+    transform: translateX(-1px);
+    padding-bottom: 1rem;
+    top:84px;
+    left: 3rem;
+    right: 3rem;
+    align-items: center;
+    display: none;
+}
+.nav-2__link{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: .8rem;
+    padding: .3rem 0;
+    cursor: pointer;
+}
+
+
+@media (min-width: 475px){
+    .nav{
+        top: 94.4px;
+        left: 4rem;
+        right: 4rem;
+    }
+}
+
+
+@media (min-width: 640px){
+    .nav{
+        display: none;
+    }
+    .nav-2{
+        position: fixed;
+        z-index: 101;
+        padding: .1rem;
+        display: flex;
+        width: calc(180px + 10%);
+        transform: translateX(-50%);
+        left: 50%;
+        right: 0;
+        top: 65px;
+        /* transition: top 200ms ease, width 200ms ease; */
+    }
+    .nav-2__link{
+        color: white;
+        border-bottom: none;
+        /* transition: font-size 200ms ease, color 200ms ease; */
+        border-right: 2px solid grey;
+    }
+    .nav-2__link:hover{
+        color: var(--primary-color);
+    }
+    .nav-2__link-3{
+        border: none;
+    }
+}
+
+
+@media (min-width: 868px){
+    .nav-2{
+        top: 31px;
+        width: calc(180px + 15%)
+    }
+    .nav-2__link{
+        font-size: 1rem;
+    }
+}
+
+
+
+/* @media (min-width: 1024px){
+
+
+
+    .nav-2__link{
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (min-width: 1280px){
+
+}
+
+
+@media (min-width: 1536px){
+
+} */

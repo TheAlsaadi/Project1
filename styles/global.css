@@ -1,0 +1,79 @@
+
+:root{
+    --primary-color: #f6b218;
+    --primary-color-light: #f6b31879;
+    --primary-color-extra-light: #ffca1ac0;
+    --secondary-color: #254487;
+    --secondary-color-light: #004688cb;
+    --secondary-color-dark: #1f386e;
+    --background-color: white;
+    --background-color-light: rgba(255, 255, 255, 0.767);
+    --text-color: #949494;
+
+    --padding-gutter: 2rem;
+}
+
+*,
+*::after{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+  min-height: 100%;
+}
+body{
+    background: linear-gradient(var(--primary-color-extra-light), var(--secondary-color-light)), white;
+    background-repeat: no-repeat;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: clip;
+}
+svg{
+    display: block;
+}
+button{
+    cursor: pointer;
+}
+img{
+    display: block;
+}
+
+
+/* @media (min-width: 475px){
+    .page{
+        padding: 0 3rem;
+    }
+}
+@media (min-width: 640px){
+    .page{
+        padding: 0 3.5rem;
+    }
+
+}
+@media (min-width: 768px){
+    .page{
+        padding: 0 4rem;
+    }
+
+}
+@media (min-width: 1024px){
+    .page{
+        padding: 0 6rem;
+    }
+
+}
+@media (min-width: 1280px){
+    .page{
+        padding: 0 8rem;
+    }
+
+}
+@media (min-width: 1536px){
+    .page{
+        padding: 0 10rem;
+    }
+
+} */

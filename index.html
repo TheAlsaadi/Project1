@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kudu Menu</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/utils.css">
+    <link rel="stylesheet" href="./styles/components/header.css">
+    <link rel="stylesheet" href="./styles/components/nav.css">
+    <link rel="stylesheet" href="./styles/components/main.css">
+    <link rel="stylesheet" href="./styles/components/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input id="nav__check-box" type="checkbox" style="display: none;">
+    <!-- Header -->
+    <header class="header container">
+        <div class="header__logo-block">
+            <h2 class="header__title header__title-en">Kudu</h2>
+            <span class="header__logo"></span> 
+            <h2 class="header__title header__title-ar">كودو</h2>
+        </div>
+        <div class="header__search">
+            <label for="search-bar" class="header__search-icon btn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+            </label>
+            <input id="search-bar" class="header__search-bar" type="text" placeholder="Search">
+        </div>
+        <button class="header__login btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+            </svg>
+            <h2 class="header__login-text">Login</h2>
+        </button>
+        <label class="header__check-box-label" for="nav__check-box">
+            <button class="header__hamburger-menu btn-clear">
+                <svg class="header__hamburger-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="30" height="30">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </label>
+    </header>
+
+    <!-- Nav -->
+    <nav class="nav">
+        <a class="nav__link nav__link-1">Contact</a>
+        <a class="nav__link nav__link-2">About Us</a>
+        <a class="nav__link nav__link-3">Locations</a>
+    </nav>
+
+    <!-- nav - 2 -->
+    <nav class="nav-2">
+        <a class="nav-2__link nav-2__link-1">Contact</a>
+        <a class="nav-2__link nav-2__link-2">About Us</a>
+        <a class="nav-2__link nav-2__link-3">Locations</a>
+    </nav>
+
+    <!-- Main -->
+    <main class="main">
+        <!-- main__catagorie -->
+        <section class="main__catagorie container">
+            <div class="main__catagorie-scroll container">
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie1.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Gathering</h3>
+                    </a>
+                </div>
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/combos">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie2.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Combos</h3>
+                    </a>
+                </div>
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/kids-meal">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie3.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Kids Meal</h3>
+                    </a>
+                </div>
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/sandwiches">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie4.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Sandwiches</h3>
+                    </a>
+                </div>
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/kudu-fit">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie5.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Kudu Fit</h3>
+                    </a>
+                </div>
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/khafayef">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie6.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Khafayef</h3>
+                    </a>
+                </div>
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/sides">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie7.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Sides</h3>
+                    </a>
+                </div>
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/dessert">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie8.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Dessert</h3>
+                    </a>
+                </div>
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/sauces">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie9.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Sauces</h3>
+                    </a>
+                </div>
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/hot-drinks">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie10.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Hot Drinks</h3>
+                    </a>
+                </div>
+                <div class="main__catagorie-item">
+                    <a class="main__catagorie-links-routes" href="#/cold-drinks">
+                        <img class="main__catagorie-img" src="./img/Catagorie/catagorie11.png" alt="" width="70" height="70">
+                        <h3 class="main__catagorie-name">Cold Drinks</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- main__dishes -->
+        <section class="main__dishes">
+            <h2 class="main__dishes-catagorie-title" id="route-title">Gathering</h2>
+
+            <div class="main__dishes-grid" id="dishes-view"></div>
+
+            <template id="dish-card-tpl">
+            <div class="main__dishes-item container">
+                <div class="main__dishes-item-img-background">
+                <img class="main__dishes-item-img" src="" alt="" width="140" height="80" loading="lazy">
+                </div>
+
+                <h3 class="main__dishes-item-title"></h3>
+
+                <h4 class="main__dishes-item-price">
+                <svg class="SAR-symbol" width="12" height="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1124.14 1256.39" aria-hidden="true">
+                    <path fill="currentColor" d="M699.62,1113.02h0c-20.06,44.48-33.32,92.75-38.4,143.37l424.51-90.24c20.06-44.47,33.31-92.75,38.4-143.37l-424.51,90.24Z"/>
+                    <path fill="currentColor" d="M1085.73,895.8c20.06-44.47,33.32-92.75,38.4-143.37l-330.68,70.33v-135.2l292.27-62.11c20.06-44.47,33.32-92.75,38.4-143.37l-330.68,70.27V66.13c-50.67,28.45-95.67,66.32-132.25,110.99v403.35l-132.25,28.11V0c-50.67,28.44-95.67,66.32-132.25,110.99v525.69l-295.91,62.88c-20.06,44.47-33.33,92.75-38.42,143.37l334.33-71.05v170.26l-358.3,76.14c-20.06,44.47-33.32,92.75-38.4,143.37l375.04-79.7c30.53-6.35,56.77-24.4,73.83-49.24l68.78-101.97v-.02c7.14-10.55,11.3-23.27,11.3-36.97v-149.98l132.25-28.11v270.4l424.53-90.28Z"/>
+                </svg>
+                <span class="price-number"></span>
+                </h4>
+
+                <p class="main__dishes-item-desc"></p>
+
+                <div class="main__dishes-item-desc-after-click">
+                <div class="main__dishes-item-desc-after-click-title"></div>
+                <p class="after-click-desc"></p>
+                    <div class="main__dishes-item-desc-after-click-kcal">
+                        <svg viewBox="0 0 16.6309 22.9004" width="20" height="20" aria-hidden="true">
+                        <g>
+                            <rect height="22.9004" opacity="0" width="16.6309" x="0" y="0"/>
+                            <path d="M7.67578 21.123C12.832 21.123 16.2695 17.6367 16.2695 12.3828C16.2695 3.64258 8.82812 0 3.66211 0C2.74414 0 2.1582 0.322266 2.1582 0.947266C2.1582 1.19141 2.26562 1.44531 2.4707 1.67969C3.63281 3.06641 4.79492 4.7168 4.81445 6.64062C4.81445 7.08008 4.76562 7.4707 4.45312 8.01758L4.94141 7.91992C4.50195 6.48438 3.32031 5.46875 2.28516 5.46875C1.88477 5.46875 1.61133 5.76172 1.61133 6.20117C1.61133 6.45508 1.67969 7.05078 1.67969 7.48047C1.67969 9.66797 0 10.9473 0 14.4727C0 18.4668 3.05664 21.123 7.67578 21.123ZM7.77344 19.7559C3.94531 19.7559 1.37695 17.627 1.37695 14.4727C1.37695 11.2695 3.10547 10.1855 3.10547 7.64648C3.10547 7.26562 3.02734 6.92383 2.93945 6.63086L2.71484 7.02148C3.51562 7.5 4.0625 8.36914 4.375 9.70703C4.41406 9.91211 4.53125 10.0098 4.67773 10.0098C5.46875 10.0098 6.03516 8.04688 6.03516 6.80664C6.03516 4.56055 5.06836 2.43164 3.49609 0.976562L3.23242 1.28906C10.2539 1.43555 14.834 6.09375 14.834 12.334C14.834 16.7676 12.002 19.7559 7.77344 19.7559ZM7.90039 18.3789C10.2246 18.3789 11.3574 16.6699 11.3574 14.7363C11.3574 12.832 10.2441 10.7031 8.10547 9.69727C8.01758 9.66797 7.95898 9.7168 7.96875 9.80469C8.13477 11.4062 7.89062 12.8906 7.37305 13.5938C7.12891 13.0273 6.83594 12.5391 6.38672 12.1387C6.31836 12.0801 6.25977 12.1094 6.24023 12.1973C6.08398 13.3008 4.86328 13.916 4.86328 15.6348C4.86328 17.2754 6.07422 18.3789 7.90039 18.3789Z" fill="#f5b21b" fill-opacity="0.5"/>
+                        </svg>
+                        <span class="kcal-number"></span>
+                    </div>
+                </div>
+
+                <label class="main__dishes-desc-more">
+                    <input class="main__dishes-item-desc-hidden-checkbox" type="checkbox" hidden>
+                </label>
+
+                <button class="btn-main">Add</button>
+            </div>
+            </template>
+
+        </section>
+    </main>
+
+
+
+    <!-- Footer -->
+     <footer class="footer">
+        <div class="footer__logo-block">
+            <h2 class="footer__title footer__title-en">Kudu</h2>
+            <span class="footer__logo"></span> 
+            <h2 class="footer__title footer__title-ar">كودو</h2>
+        </div>
+        <div class="footer__grid">
+            <nav class="footer__links">
+                <div class="footer__links-block">
+                    <h2 class="footer__links-list-title">
+                        Get in Touch
+                    </h2>
+                    <a href="" class="footer__links-tag">Contact Us</a>
+                    <a href="" class="footer__links-tag">Help & Support</a>
+                    <a href="" class="footer__links-tag">FAQs</a>
+                    <a href="" class="footer__links-tag">Become a Franchise</a>
+                    <a href="" class="footer__links-tag">Careers</a>
+                </div>
+
+                <div class="footer__links-block">
+                    <h2 class="footer__links-list-title">
+                        Explore Kudu
+                    </h2>
+                    <a href="" class="footer__links-tag">Our Store</a>
+                    <a href="" class="footer__links-tag">Our Vision</a>
+                    <a href="" class="footer__links-tag">About Us</a>
+                    <a href="" class="footer__links-tag">Privacy Policy</a>
+                    <a href="" class="footer__links-tag">Terms And Conditions</a>
+                </div>
+
+                <div class="footer__links-block footer__links-block-3">
+                    <h2 class="footer__links-list-title">
+                        Address
+                    </h2>
+                    <a href="" class="footer__links-tag">Phone: +966 920006999</a>
+                    <a href="" class="footer__links-tag">Email: info@kudu.com.sa</a>
+                    <a href="" class="footer__links-tag">Kudu Company for Food and Catering</a>
+                    <a href="" class="footer__links-tag">CR No. 1010143297</a>
+                    <a href="" class="footer__links-tag">VAT No. 300056043100003</a>
+                </div>
+            </nav>
+            <section class="footer__apps">
+                <div class="footer__apps-logo-block">
+                    <h2 class="footer__apps-title footer__apps-title-en">Kudu</h2>
+                    <span class="footer__apps-logo"></span> 
+                    <h2 class="footer__apps-title footer__apps-title-ar">كودو</h2>
+                </div>
+                <p class="footer__apps-moto">A taste you can see</p>
+                <h3 class="footer__apps-social-title">Social Connect</h3>
+                <div class="footer__apps-block">
+                    <a class="footer__apps-social-link" href="">
+                        <img class="footer__apps-social-link-img" src="./img/icon/facebook-ic.svg" alt="facebook-logo" width="38" height="38">
+                    </a>
+                    <a class="footer__apps-social-link" href="">
+                        <img class="footer__apps-social-link-img" src="./img/icon/twitter-ic.svg" alt="twitter-logo" width="38" height="38">
+                    </a>
+                    <a class="footer__apps-social-link" href="">
+                        <img class="footer__apps-social-link-img" src="./img/icon/TikTok-ic.svg" alt="TikTok-logo" width="38" height="38">
+                    </a>
+                    <a class="footer__apps-social-link" href="">
+                        <img class="footer__apps-social-link-img" src="./img/icon/snapchat-ic.svg" alt="snapchat-logo" width="38" height="38">
+                    </a>
+                    <a class="footer__apps-social-link" href="">
+                        <img class="footer__apps-social-link-img" src="./img/icon/instagram-ic.svg" alt="instagram-logo" width="38" height="38">
+                    </a>
+                </div>
+            </section>
+        </div>
+        
+     </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
