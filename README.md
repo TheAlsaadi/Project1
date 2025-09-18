@@ -24,5 +24,5 @@ It demonstrates modern web design practices, responsive layouts, and a simple **
 
 ## ✨ Important Notes
 
-- **It is  aDesign**  
+- **It is a Design**  
   The header and footer links don't work because it is a design for menu only
